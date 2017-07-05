@@ -1,0 +1,18 @@
+.wrapper {
+	padding-left: 18px;
+	padding-right: 18px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&--medium {
+		max-width: 976px;
+	}
+
+	/* below is incase you have a wrapper inside a wrapper,
+	   use this area to counteract what you need */
+	.wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

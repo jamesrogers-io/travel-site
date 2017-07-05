@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+
+<body>
+
+
+<h1>Dog Page</h1>
+    
+    <!-- COMMENTED example from Udemy course, using Responsive Images for Art Direction Cropping -->
+	<picture>
+	  <source srcset="images/dog-crop-large.jpg" media="(min-width: 1200px)">
+	  <source srcset="images/dog-crop-medium.jpg" media="(min-width: 760px)">
+	  <img src="images/dog-crop-small.jpg" alt="puppy in the sand">
+	</picture>
+    
+
+
+    <!-- this will change the images Source depending on what the screen size is. The Browser will detect which image to use, just help it by adding the file size after the URL -->
+    <img srcset="images/dog-resolution-small.jpg 570w, images/dog-resolution-medium.jpg 1200w, images/dog-resolution-large.jpg 1920w" alt="puppy in the sand">
+
+
+</body>
+</html>

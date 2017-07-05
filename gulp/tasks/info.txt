@@ -1,0 +1,5 @@
+The Gulp Tasks folder is where your individual Tasks should be stored. In here, I have a Styles.JS file that defines variables to certain PostCSS packages, then uses the PostCSS packages to perform a TASK.
+
+Styles.JS will use AutoPrefixer, PostCSS, Mixins ect. to help you organize CSS.
+
+Watch.JS will use BrowserSync to automatically refresh my browser when changes to any files listed are made. It will also use CSSInject.

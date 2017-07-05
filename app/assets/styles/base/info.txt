@@ -1,0 +1,1 @@
+The BASE area is where the main ReUsable code should be placed. Here we have the Global styles, your Mixins, Your Variables ect.
