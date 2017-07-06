@@ -11,12 +11,19 @@
 	}
 
 	&--b-margin {
-
 		margin-bottom: 1rem;
+		  @mixin atSmall {	
+		    margin-bottom: 3.875rem;
+		  }
+	}
 
-		@mixin atSmall {	
-		margin-bottom: 3.875rem;
-		}
+	&--no-padding-until-medium {
+		padding-left: 0;
+		padding-right: 0;
+		  @mixim atMedium {
+			padding-left: 18px;
+			padding-right: 18px;
+		  }
 	}
 
 	/* below is incase you have a wrapper inside a wrapper,
